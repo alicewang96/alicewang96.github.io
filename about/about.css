@@ -21,8 +21,9 @@
       transform: translateY(-8px);
       text-decoration: underline;
     }
-/*TYPEWRITER
+    /*TYPEWRITER
     */
+
     .var-highlight {
       color: black;
     }
@@ -66,15 +67,15 @@
     }
     h1 {
         color: black;
-        font-size: 285%;
+        font-size: 250%;
         font-family: monospace;
         font-weight: lighter;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         text-decoration: none;
     }
     h2 {
         color: black;
-        font-size: 200%;
+        font-size: 170%;
         /*font-family: "Times", Times, Serif;*/
         font-family: monospace;
         font-weight: lighter;
@@ -84,7 +85,7 @@
     }
     h3 {
         color: black;
-        font-size: 200%;
+        font-size: 170%;
         /*font-family: "Times", Times, Serif;*/
         font-family: monospace;
         font-weight: lighter;
@@ -95,7 +96,7 @@
     }
     h4 {
         color: black;
-        font-size: 160%;
+        font-size: 130%;
         font-family: monospace;
         font-weight: lighter;
         letter-spacing: 1.5px;
@@ -105,7 +106,7 @@
     }
     h5 {
         color: black;
-        font-size: 175%;
+        font-size: 145%;
         font-family: monospace;
         font-weight: lighter;
         letter-spacing: 2px;
@@ -115,7 +116,7 @@
     }
     h6 {
         color: black;
-        font-size: 175%;
+        font-size: 145%;
         font-family: monospace;
         font-weight: lighter;
         letter-spacing: 2px;
@@ -124,23 +125,23 @@
 
     }
     div.name {
-        color:transparent;
+        color:black;
         background-color: transparent;
         position: absolute;
-        top: 35px;
-        left: 440px;
-        width: 500px;
-        height: 60px;
+        top: 5%;
+        left: 32%;
+        width: 35%;
+        height: 8%;
         cursor: pointer;
     }
     div.about {
         color:black;
         background-color: transparent;
         position: absolute;
-        top: 84px;
-        left: 320px;
-        width: 100px;
-        height: 40px;
+        top: 11%;
+        left: 24%;
+        width: 8%;
+        height: 6%;
         cursor: default;
         text-decoration: underline;
         z-index: -1;
@@ -149,141 +150,135 @@
         color:black;
         background-color: transparent;
         position: absolute;
-        top: 90px;
-        left: 475px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 34%;
+        width: 17%;
+        height: 6%;
         cursor: pointer;
     }
     div.projects {
         color: black;
         background-color: transparent;
         position: absolute;
-        top: 90px;
-        left: 740px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 52%;
+        width: 15%;
+        height: 6%;
         cursor: pointer;
     }
     div.interests {
         color:black;
         background-color: transparent;
         position: absolute;
-        top: 90px;
-        left: 950px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 67%;
+        width: 16%;
+        height: 6%;
         cursor: pointer;
     }
     .berkeley {
         position: absolute;
-        top: 175px;
-        left: 300px;
-        width: 150px;
-        height: 140px;
-        content: url("../images/berkeley.jpg");
+        top: 23%;
+        left: 23%;
+        width: 12%;
+        height: 19%;
+        content: url("../images/about_images/berkeley.jpg");
         border-radius: 25px;
         z-index: 1;
     }
     div.education {
         color:black;
-        /*background-image: url(../images/notecard.jpg);*/
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
         background-size: contain;
-        top: 190px;
-        left: 440px;
+        top: 22%;
+        left: 32%;
         width: 500px;
         height: 400px;
         cursor: default;
         padding: 10px 20px 0px 60px;
     }
-
-    div.education:hover {
-        /*opacity: 0.5;*/
-    }
-
     div.skills {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
         content:url("../images/red.png");
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-    width: 400px;
-    height: 400px;
-    top: 300px;
-    left: 25px;
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+        transform: rotate(-5deg);
+        width: 30%;
+        height: 50%;
+        top: 33%;
+        left: 2%;
     }
     div.skillswords {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
-    width: 300px;
-    height: 300px;
-    top: 300px;
-    left: 100px;
+        -ms-transform: rotate(-3deg); /* IE 9 */
+        -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+        transform: rotate(-3deg);
+        width: 30%;
+        height: 50%;
+        top: 34.5%;
+        left: 8%;
     }
     div.skillswords2 {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
-    width: 300px;
-    height: 300px;
-    top: 290px;
-    left: 100px;
+        -ms-transform: rotate(-3deg); /* IE 9 */
+        -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+        transform: rotate(-3deg);
+        width: 30%;
+        height: 50%;
+        top: 33%;
+        left: 8%;
     }
     div.skillswords3 {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
-    width: 300px;
-    height: 300px;
-    top: 465px;
-    left: 100px;
+        -ms-transform: rotate(-3deg); /* IE 9 */
+        -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+        transform: rotate(-3deg);
+        width: 30%;
+        height: 50%;
+        top: 54%;
+        left: 8%;
     }
 
     div.datascience {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
         content:url("../images/orange.png");
-    -ms-transform: rotate(2deg); /* IE 9 */
-    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
-    transform: rotate(2deg);
-    width: 350px;
-    height: 325px;
-    top: 475px;
-    left: 650px;
+        -ms-transform: rotate(2deg); /* IE 9 */
+        -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+        transform: rotate(2deg);
+        width: 28%;
+        height: 45%;
+        top: 55%;
+        left: 42%;
     }
     div.datasciencewords {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
-    -ms-transform: rotate(1deg); /* IE 9 */
-    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
-    transform: rotate(1deg);
-    width: 300px;
-    height: 300px;
-    top: 460px;
-    left: 710px;
+        -ms-transform: rotate(1deg); /* IE 9 */
+        -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+        transform: rotate(1deg);
+        width: 28%;
+        height: 45%;
+        top: 56%;
+        left: 49%;
     }
     div.cali {
         position: absolute;
-        top: 450px;
-        left: 560px;
-        width: 128px;
-        height: 120px;
+        top: 52%;
+        left: 38%;
+        width: 10%;
+        height: 16%;
         content: url("../images/about_images/mit.png");
         border-radius: 25px;
         z-index: 1;
@@ -291,58 +286,94 @@
 
     div.postit {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
         content:url("../images/blue.png");
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
-    width: 350px;
-    height: 325px;
-    top: 650px;
-    left: 225px;
+        -ms-transform: rotate(3deg); /* IE 9 */
+        -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+        transform: rotate(3deg);
+        width: 28%;
+        height: 45%;
+        top: 78%;
+        left: 16%;
     }
     div.postitwords {
         color:black;
-        background-color: transparent;
+        background-color:transparent;
         position: absolute;
-    -ms-transform: rotate(1deg); /* IE 9 */
-    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
-    transform: rotate(1deg);
-    width: 350px;
-    height: 325px;
-    top: 630px;
-    left: 265px;
+        -ms-transform: rotate(1deg); /* IE 9 */
+        -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+        transform: rotate(1deg);
+        width: 28%;
+        height: 45%;
+        top: 78%;
+        left: 20%;
     }
     div.mit {
         position: absolute;
-        top: 625px;
-        left: 525px;
-        width: 125px;
-        height: 125px;
+        top: 74%;
+        left: 35%;
+        width: 10%;
+        height: 16%;
         content: url("../images/about_images/california.png");
         border-radius: 25px;
         z-index: 1;
     }
+    div.portrait {
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        border-radius: 10px;
+        -ms-transform: rotate(8deg); /* IE 9 */
+        -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+        transform: rotate(8deg);
+        content: url(../images/about_images/me.jpg);
+        background-size: contain;
+        width: 25%;
+        height: 65%;
 
+    }
     div.footer {
         color: transparent;
         position: absolute;
-        top:890px;
-        height: 100px;
+        top: 100%;
+        height: 150px;
         opacity: 0;
-    }
-    div.portrait {
-        position: absolute;
-        top: 245px;
-        right: 65px;
-        border-radius: 10px;
-    -ms-transform: rotate(8deg); /* IE 9 */
-    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
-    transform: rotate(8deg);
-    content: url(../images/about_images/me.jpg);
-    background-size: contain;
-    width: 300px;
-    height: 460px
 
+    }
+    div.onebar {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 32.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+
+    }
+    div.twobar {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 50.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+        
+    }
+    div.threebar {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 65.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+        
     }

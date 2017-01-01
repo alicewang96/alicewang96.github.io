@@ -73,10 +73,10 @@
     }
     h1 {
         color: black;
-        font-size: 285%;
+        font-size: 250%;
         font-family: monospace;
         font-weight: lighter;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         text-decoration: none;
     }
     h2 {
@@ -89,106 +89,130 @@
         
     }
     div.name {
-        color:white;
+        color:black;
         background-color: transparent;
         position: absolute;
-        top: 35px;
-        left: 440px;
-        width: 500px;
-        height: 60px;
+        top: 5%;
+        left: 32%;
+        width: 35%;
+        height: 8%;
         cursor: pointer;
     }
     div.about {
         color:black;
-      background-color: transparent;
+        background-color: transparent;
         position: absolute;
-        top:90px;
-        left: 320px;
-        width: 150px;
-        height: 40px;
+        top: 13%;
+        left: 24%;
+        width: 8%;
+        height: 6%;
         cursor: pointer;
     }
     div.experience {
         color:black;
         background-color: transparent;
         position: absolute;
-        top:90px;
-        left: 475px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 34%;
+        width: 17%;
+        height: 6%;
         cursor: pointer;
     }
     div.projects {
         color: black;
         background-color: transparent;
         position: absolute;
-        top:90px;
-        left: 740px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 52%;
+        width: 15%;
+        height: 6%;
         cursor: pointer;
     }
     div.interests {
         color:black;
         background-color: transparent;
         position: absolute;
-        top:90px;
-        left: 950px;
-        width: 200px;
-        height: 40px;
+        top: 13%;
+        left: 67%;
+        width: 16%;
+        height: 6%;
         cursor: pointer;
     }
-    div.contents {
-        color:white;
-        background-color: black;
+    div.onebar {
+        color:black;
+        background-color: transparent;
         position: absolute;
-        top: 230px;
-        left: 300px;
-        width: 500px;
-        height: 350px;
-        cursor: default;
+        top: 13%;
+        left: 32.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+
+    }
+    div.twobar {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 50.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+        
+    }
+    div.threebar {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 13%;
+        left: 65.5%;
+        width: 2%;
+        height: 6%;
+        cursor: pointer;
+        z-index: -1;
+        
     }
     div.portrait {
         position: absolute;
-        top: 210px;
+        top: 30%;
         left:28%;
         border-radius: 10px;
-    content: url(../images/home_images/notebook23.jpg);
-    background-size: contain;
-    width: 600px;
-    height: 700px
+        content: url(../images/home_images/notebook23.jpg);
+        background-size: contain;
+        width: 45%;
+        height: 80%;
 
     }
     div.postcard {
         position: absolute;
-        top: 330px;
+        top: 40%;
         left:45%;
-    content: url(../images/home_images/postcard.jpg);
-    background-size: contain;
-    width: 500px;
-    height: 300px;
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
-
+        content: url(../images/home_images/postcard.jpg);
+        background-size: contain;
+        width: 40%;
+        height: 40%;
+        -ms-transform: rotate(3deg); 
+        -webkit-transform: rotate(3deg); 
+        transform: rotate(3deg);
     }
     div.quote {
         position: absolute;
-        top: 375px;
+        top: 43%;
         left:48%;
-    background-size: contain;
-    width: 500px;
-    height: 300px;
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
-
+        background-size: contain;
+        width: 40%;
+        height: 40%;
+        -ms-transform: rotate(3deg); /* IE 9 */
+        -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+        transform: rotate(3deg);
     }
     div.footer {
         color: transparent;
         position: absolute;
-        top: 890px;
-        height: 100px;
+        top: 100%;
+        height: 150px;
         opacity: 0;
 
     }
