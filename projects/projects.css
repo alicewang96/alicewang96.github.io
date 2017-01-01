@@ -1,0 +1,185 @@
+
+    body {
+    background-color: #F3E4A1;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    }
+    .hvr-float {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+      text-decoration: underline;
+    }
+    a {
+        color: black;
+        text-decoration:none;
+    }
+    h1 {
+        color: black;
+        font-size: 285%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+    div.name {
+        color:transparent;
+        background-color: transparent;
+        position: absolute;
+        top: 35px;
+        left: 440px;
+        width: 500px;
+        height: 60px;
+        cursor: pointer;
+    }
+    div.about {
+        color:black;
+    	background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 320px;
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+    }
+    div.experience {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 475px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+    }
+    div.projects {
+        color: black;
+        background-color: transparent;
+        position: absolute;
+        top: 84px;
+        left: 740px;
+        width: 200px;
+        height: 40px;
+        cursor: default;
+        text-decoration: underline;
+        z-index: -1;
+    }
+    div.interests {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 950px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+    }
+    div.portrait {
+        position: absolute;
+        top: 250px;
+        right: 90px;
+        border-radius: 10px;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    content: url(../images/project_images/yumfeed2.jpg);
+    background-size: contain;
+    width: 350px;
+    height: 425px
+
+    }
+    .yumfeed {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        width: 175px;
+        height: 150px;
+        content: url("../images/project_images/yumfeed.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .gbsc {
+        position: absolute;
+        top: 350px;
+        left: 150px;
+        width: 150px;
+        height: 140px;
+        content: url("../images/project_images/gbsc.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .cogitativo {
+        position: absolute;
+        top: 625px;
+        left: 200px;
+        width: 150px;
+        height: 150px;
+        content: url("../images/project_images/cog.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .stat133 {
+        position: absolute;
+        top: 625px;
+        left: 250px;
+        width: 150px;
+        height: 150px;
+        content: url("../images/project_images/stat133.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+
+    }
+    .gitlet {
+        position: absolute;
+        top: 625px;
+        left: 250px;
+        width: 150px;
+        height: 150px;
+        content: url("../images/project_images/gitlet.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+
+    }
+    .logism {
+        position: absolute;
+        top: 625px;
+        left: 250px;
+        width: 150px;
+        height: 150px;
+        content: url("../images/project_images/logism.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+
+    }
+    div.footer {
+        color: transparent;
+        position: absolute;
+        top:890px;
+        height: 100px;
+        opacity: 0;
+
+    }

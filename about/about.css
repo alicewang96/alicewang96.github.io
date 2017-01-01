@@ -1,0 +1,348 @@
+    body {
+    background-color: #F3E4A1;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    }
+    .hvr-float {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+      text-decoration: underline;
+    }
+/*TYPEWRITER
+    */
+    .var-highlight {
+      color: black;
+    }
+
+    .string-highlight {
+      color: black;
+    }
+
+    #typewriter {
+      margin: 0;
+      font-family: monospace;
+      word-spacing: 2px;
+
+    }
+    #typewriter:after {
+      content: "|";
+      -webkit-animation: blink 500ms linear infinite alternate;
+              animation: blink 500ms linear infinite alternate;
+    }
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    a {
+        color: black;
+        text-decoration:none;
+    }
+    h1 {
+        color: black;
+        font-size: 285%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+    h2 {
+        color: black;
+        font-size: 200%;
+        /*font-family: "Times", Times, Serif;*/
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: none;
+        line-height: 20%;
+    }
+    h3 {
+        color: black;
+        font-size: 200%;
+        /*font-family: "Times", Times, Serif;*/
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        line-height: 20%;
+
+    }
+    h4 {
+        color: black;
+        font-size: 160%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        line-height: 10%
+
+    }
+    h5 {
+        color: black;
+        font-size: 175%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: none;
+        line-height: 100%
+
+    }
+    h6 {
+        color: black;
+        font-size: 175%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        line-height: 0%
+
+    }
+    div.name {
+        color:transparent;
+        background-color: transparent;
+        position: absolute;
+        top: 35px;
+        left: 440px;
+        width: 500px;
+        height: 60px;
+        cursor: pointer;
+    }
+    div.about {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 84px;
+        left: 320px;
+        width: 100px;
+        height: 40px;
+        cursor: default;
+        text-decoration: underline;
+        z-index: -1;
+    }
+    div.experience {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 475px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+    }
+    div.projects {
+        color: black;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 740px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+    }
+    div.interests {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 950px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .berkeley {
+        position: absolute;
+        top: 175px;
+        left: 300px;
+        width: 150px;
+        height: 140px;
+        content: url("../images/berkeley.jpg");
+        border-radius: 25px;
+        z-index: 1;
+    }
+    div.education {
+        color:black;
+        /*background-image: url(../images/notecard.jpg);*/
+        background-color: transparent;
+        position: absolute;
+        background-size: contain;
+        top: 190px;
+        left: 440px;
+        width: 500px;
+        height: 400px;
+        cursor: default;
+        padding: 10px 20px 0px 60px;
+    }
+
+    div.education:hover {
+        /*opacity: 0.5;*/
+    }
+
+    div.skills {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        content:url("../images/red.png");
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    width: 400px;
+    height: 400px;
+    top: 300px;
+    left: 25px;
+    }
+    div.skillswords {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+    width: 300px;
+    height: 300px;
+    top: 300px;
+    left: 100px;
+    }
+    div.skillswords2 {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+    width: 300px;
+    height: 300px;
+    top: 290px;
+    left: 100px;
+    }
+    div.skillswords3 {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+    width: 300px;
+    height: 300px;
+    top: 465px;
+    left: 100px;
+    }
+
+    div.datascience {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        content:url("../images/orange.png");
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+    width: 350px;
+    height: 325px;
+    top: 475px;
+    left: 650px;
+    }
+    div.datasciencewords {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+    -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+    transform: rotate(1deg);
+    width: 300px;
+    height: 300px;
+    top: 460px;
+    left: 710px;
+    }
+    div.cali {
+        position: absolute;
+        top: 450px;
+        left: 560px;
+        width: 128px;
+        height: 120px;
+        content: url("../images/about_images/mit.png");
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    div.postit {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+        content:url("../images/blue.png");
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    width: 350px;
+    height: 325px;
+    top: 650px;
+    left: 225px;
+    }
+    div.postitwords {
+        color:black;
+        background-color: transparent;
+        position: absolute;
+    -ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+    transform: rotate(1deg);
+    width: 350px;
+    height: 325px;
+    top: 630px;
+    left: 265px;
+    }
+    div.mit {
+        position: absolute;
+        top: 625px;
+        left: 525px;
+        width: 125px;
+        height: 125px;
+        content: url("../images/about_images/california.png");
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    div.footer {
+        color: transparent;
+        position: absolute;
+        top:890px;
+        height: 100px;
+        opacity: 0;
+    }
+    div.portrait {
+        position: absolute;
+        top: 245px;
+        right: 65px;
+        border-radius: 10px;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+    transform: rotate(8deg);
+    content: url(../images/about_images/me.jpg);
+    background-size: contain;
+    width: 300px;
+    height: 460px
+
+    }
