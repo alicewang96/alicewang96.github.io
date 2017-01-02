@@ -107,7 +107,7 @@
     -ms-transform: rotate(-8deg); /* IE 9 */
     -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
     transform: rotate(-8deg);
-    content: url(../images/interest_images/interests2.jpg);
+    content: url(../images/interest_images/interests.jpg);
     background-size: contain;
     width: 200px;
     height: 275px
@@ -121,7 +121,7 @@
     -ms-transform: rotate(-2deg); /* IE 9 */
     -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
     transform: rotate(-2deg);
-    content: url(../images/interest_images/interests3.jpeg);
+    content: url(../images/interest_images/interests3.jpg);
     background-size: contain;
     width: 350px;
     height: 250px
@@ -149,7 +149,7 @@
     -ms-transform: rotate(2deg); /* IE 9 */
     -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
     transform: rotate(2deg);
-    content: url(../images/interest_images/tea.jpeg);
+    content: url(../images/interest_images/tea.jpg);
     background-size: contain;
     width: 250px;
     height: 350px
