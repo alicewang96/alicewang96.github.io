@@ -93,7 +93,7 @@
     -ms-transform: rotate(3deg); /* IE 9 */
     -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
     transform: rotate(3deg);
-    content: url(../images/interest_images/travel.jpg);
+    content: url(../images/interest_images/interest.png);
     background-size: contain;
     width: 350px;
     height: 400px
