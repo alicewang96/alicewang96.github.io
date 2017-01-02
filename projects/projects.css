@@ -34,6 +34,27 @@
         letter-spacing: 1px;
         text-decoration: none;
     }
+    h2 {
+        color: black;
+        font-size: 150%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+    h3 {
+        color: black;
+        font-size: 135%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-align: center;
+
+    }
      div.name {
         color:black;
         background-color: transparent;
@@ -102,11 +123,22 @@
     }
     .yumfeed {
         position: absolute;
-        top: 200px;
-        left: 50px;
-        width: 175px;
-        height: 150px;
-        content: url("../images/project_images/yumfeed.jpg");
+        top: 30%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
+        content: url("../images/project_images/yumfeed.png");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .yumfeed2 {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
@@ -114,11 +146,22 @@
     }
     .gbsc {
         position: absolute;
-        top: 350px;
-        left: 150px;
-        width: 150px;
-        height: 140px;
+        top: 30%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
         content: url("../images/project_images/gbsc.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .gbsc2 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
@@ -126,11 +169,22 @@
     }
     .cogitativo {
         position: absolute;
-        top: 625px;
-        left: 200px;
-        width: 150px;
-        height: 150px;
+        top: 32%;
+        left: 38%;
+        width: 11%;
+        height: 18%;
         content: url("../images/project_images/cog.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .cogitativo2 {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        width: 11%;
+        height: 18%;
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
@@ -138,11 +192,23 @@
     }
     .stat133 {
         position: absolute;
-        top: 625px;
-        left: 250px;
-        width: 150px;
-        height: 150px;
+        top: 75%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
         content: url("../images/project_images/stat133.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+
+    }
+    .stat1332 {
+        position: absolute;
+        top: 95%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
@@ -151,24 +217,46 @@
     }
     .gitlet {
         position: absolute;
-        top: 625px;
-        left: 250px;
-        width: 150px;
-        height: 150px;
+        top: 75%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
         content: url("../images/project_images/gitlet.jpg");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .gitlet2 {
+        position: absolute;
+        top: 95%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .logism {
+        position: absolute;
+        top: 74%;
+        left: 38%;
+        width: 11%;
+        height: 19%;
+        content: url("../images/project_images/logism.jpg");
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
 
 
     }
-    .logism {
+    .logism2 {
         position: absolute;
-        top: 625px;
-        left: 250px;
-        width: 150px;
-        height: 150px;
-        content: url("../images/project_images/logism.jpg");
+        top: 95%;
+        left: 38%;
+        width: 11%;
+        height: 19%;
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;

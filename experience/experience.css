@@ -55,7 +55,7 @@
     }
     @keyframes blink {
       0% {
-        opacity: 0;
+        opacity: 0
       }
       100% {
         opacity: 0;
@@ -81,6 +81,28 @@
         letter-spacing: 3px;
         text-decoration: none;
         line-height: 50%;
+
+    }
+    h2 {
+        color: black;
+        font-size: 150%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: none;
+        line-height: 0%;
+        text-align: center;
+
+    }
+    h4 {
+        color: black;
+        font-size: 150%;
+        font-family: monospace;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        text-decoration: underline;
 
     }
     div.name {
@@ -151,10 +173,10 @@
     }
     .mastercard {
         position: absolute;
-        top: 200px;
-        left: 50px;
-        width: 150px;
-        height: 150px;
+        top: 30%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
         content: url("../images/experience_images/mastercard.jpg");
         border-radius: 25px;
         z-index: 1;
@@ -163,10 +185,10 @@
     }
     .cogitativo {
         position: absolute;
-        top: 350px;
-        left: 150px;
-        width: 150px;
-        height: 140px;
+        top: 32%;
+        left: 37%;
+        width: 11%;
+        height: 18%;
         content: url("../images/experience_images/cogitativo.jpg");
         border-radius: 25px;
         z-index: 1;
@@ -175,22 +197,68 @@
     }
     .tutoring {
         position: absolute;
-        top: 625px;
-        left: 200px;
-        width: 150px;
-        height: 150px;
+        top: 30%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
         content: url("../images/experience_images/tutor.jpg");
         border-radius: 25px;
         z-index: 1;
         opacity: 0.95;
 
+    }    
+    .mastercard2 {
+        position: absolute;
+        background-color: transparent;
+        top: 50%;
+        left: 55%;
+        width: 13%;
+        height: 15%;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .cogitativo2 {
+        position: absolute;
+        background-color: transparent;
+        top:50%;
+        left: 37%;
+        width: 13%;
+        height: 15%;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .tutoring2 {
+        position: absolute;
+        background-color: transparent;
+        top: 50%;
+        left: 20%;
+        width: 13%;
+        height: 15%;
+        z-index: 1;
+        opacity: 0.95;
+
+    }
+    .awe {
+        position: absolute;
+        top: 75%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
+        content: url("../images/experience_images/awe.png");
+        border-radius: 25px;
+        z-index: 1;
+        opacity: 0.95;
+
+
     }
     .mdb {
         position: absolute;
-        top: 625px;
-        left: 250px;
-        width: 150px;
-        height: 150px;
+        top: 74%;
+        left: 38%;
+        width: 11%;
+        height: 19%;
         content: url("../images/experience_images/mdb.jpg");
         border-radius: 25px;
         z-index: 1;
@@ -200,10 +268,10 @@
     }
     .ieee {
         position: absolute;
-        top: 625px;
-        left: 300px;
-        width: 150px;
-        height: 150px;
+        top: 75%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
         content: url("../images/experience_images/ieee.jpg");
         border-radius: 25px;
         z-index: 1;
@@ -211,24 +279,40 @@
 
     }
 
-    .work {
+    .awe2 {
         position: absolute;
         background-color: transparent;
-        color: white;
-        top: 200px;
-        left: 675px;
-        width: 150px;
-        height: 50px;
+        top: 95%;
+        left: 20%;
+        width: 12%;
+        height: 20%;
+        z-index: 1;
+        opacity: 0.95;
+
 
     }
-    .involvement {
+
+    .mdb2 {
         position: absolute;
         background-color: transparent;
-        color: white;
-        top: 575px;
-        left: 250px;
-        width: 250px;
-        height: 50px;
+        top: 94%;
+        left: 38%;
+        width: 12%;
+        height: 20%;
+        z-index: 1;
+        opacity: 0.95;
+
+
+    }
+    .ieee2 {
+        position: absolute;
+        background-color: transparent;
+        top: 95%;
+        left: 55%;
+        width: 12%;
+        height: 20%;
+        z-index: 1;
+        opacity: 0.95;
 
     }
 
